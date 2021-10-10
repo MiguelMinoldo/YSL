@@ -1,0 +1,15 @@
+query Component($path: String!) {
+  Component:item(path: $path) {
+    ...homeContent
+  }
+}
+fragment homeContent on YSL {
+  Title: field(name:"Title"){rendered}
+  Text: field(name:"Text"){rendered}
+  image {
+    jss
+  }
+  logo {
+    jss
+  }
+}
