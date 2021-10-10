@@ -1,4 +1,4 @@
-# YSL
+# YSL - Sitecore - Vue.js - Nuxt.js - Azure
 
 ## Build Setup
 
