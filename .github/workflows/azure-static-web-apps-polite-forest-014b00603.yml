@@ -9,8 +9,7 @@ on:
     branches:
       - develop
   # Allows external webhook trigger
-  workflow_dispatch:
-    repository_dispatch:
+  repository_dispatch:
       types:
         - webhook
 
