@@ -8,6 +8,10 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - develop
+  # Allows external webhook trigger
+  repository_dispatch:
+    types:
+      - webhook
 
 jobs:
   build_and_deploy_job:
